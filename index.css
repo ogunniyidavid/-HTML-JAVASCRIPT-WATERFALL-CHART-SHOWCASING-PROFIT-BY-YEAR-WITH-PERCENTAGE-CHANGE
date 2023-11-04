@@ -1,0 +1,94 @@
+body {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.bar.total rect {
+  fill: steelblue;
+}
+
+.bar:hover rect{
+  fill: orange;
+}
+
+.bar.positive rect {
+  fill: darkolivegreen;
+}
+
+.bar:hover rect{
+  fill:orange;
+}
+
+
+.bar.negative rect {
+  fill: crimson;
+}
+
+.bar:hover rect{
+  fill:orange;
+}
+
+
+.bar line.connector {
+  stroke: grey;
+  stroke-dasharray: 3;
+}
+
+.bar text {
+  text-anchor: middle;
+}
+
+.axis text {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+h1 {
+  color: #E01A44;
+  font-weight: bold;
+}
+h2 {
+  color: #E01A44;
+  font-weight: bold;
+}
+
+div.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 60px;
+  height: 16px;
+  padding: 2px;
+  font: 15px sans-serif;
+  background: lightgrey;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.bubble {
+  font-weight: bold;
+}
+
+.ellipse {
+  fill: lightblue;
+  stroke:black;
+  stroke-width:2;
+}
+
+button{
+  background-color: #E01A44;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 3px;
+}
+button:hover{
+  background-color: #cf5670;
+}
